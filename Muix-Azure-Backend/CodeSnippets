@@ -1,0 +1,14 @@
+
+//Checks if the incoming request has the correct type (see ItemType.Type[])
+if(ItemType.Type.All(type => !type.Equals(createArtistReq.Type))){
+                _logger.LogError($"The given type {createArtistReq.Type} of this object does not match any specified types (ARTIST, ALBUM, TRACK, PLAYLIST)!");
+
+                var errorResponse = request.CreateResponse(HttpStatusCode.BadRequest);
+                await errorResponse.WriteAsJsonAsync<ErrorModel>(new
+                (
+                    Error: "Bad ItemType",
+                    ErrorMessage: $"The given type of this object does not match any specified types (ARTIST, ALBUM, TRACK, PLAYLIST!)"
+                ));
+                errorResponse.StatusCode = HttpStatusCode.BadRequest;
+                return errorResponse;
+            }

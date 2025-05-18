@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Musix</string>
+    <string name="title_activity_collections_screen">CollectionsScreen</string>
+    <string name="title_activity_search_screen">SearchScreen</string>
+</resources>
