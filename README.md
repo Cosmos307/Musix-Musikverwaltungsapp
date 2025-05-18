@@ -5,6 +5,7 @@
 Musix ist eine App zur Katalogisierung von Musik. Sie ermöglicht das Verwalten, Suchen und Bewerten von Musikstücken, Alben, Künstlern und Playlists. Die App 2024 wurde von 3 Bachelor-Studenten im Rahmen des von AppsFactory betreuten Moduls "Mobile Computing" entwickelt und erhielt als Bewertung eine 1,7.
 
 Das Backend basiert auf Azure Functions (.NET), das Frontend ist eine Android-App (Kotlin, Jetpack Compose). Zusätzlich wird die LastFM API genutzt, um Metadaten und Informationen zu Songs, Alben und Künstlern abzurufen.
+
 ---
 
 ## Features
