@@ -50,8 +50,8 @@ Mobile-Computing/
 ## Entwickler
 
 - Max 
-- K. S.
-- L. M.
+- Kai Schick
+- Lorenz Merkel
 
 ---
 
